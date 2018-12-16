@@ -17,7 +17,7 @@ class Header extends React.Component {
     render(){
         return(
             <Row>
-                <Col lg={12} > 
+                <Col lg={12}> 
                     <nav>
                         <List>
                             <Link link="#" text="Вызов мастера"/>
@@ -27,8 +27,6 @@ class Header extends React.Component {
                             <Link link="#" text="Отзывы клиентов"/>
                             <Link link="#" text="Примеры работ"/>
                             <Link link="#" text="Контакты"/>
-
-
                         </List>
                     </nav>
                 </Col>

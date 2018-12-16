@@ -10,7 +10,7 @@ import Header from './components/header';
 import Menu from './components/menu';
 import Main from './components/main';
 
-const url = process.env.PUBLIC_URL + './img/bg.png'
+const bgimg = process.env.PUBLIC_URL + './img/bg.png'
 
 const HeaderWrapper = styled.header`
 	width: 100%;
@@ -26,7 +26,7 @@ const MenuWrapper = styled.div`
 const MainWrapper = styled.main`
 	height: 600px;
 	padding-top:130px;
-	background: url(${url}) no-repeat;
+	background: url(${bgimg}) no-repeat;
 	background-size: cover;
 `
 class App extends Component {
